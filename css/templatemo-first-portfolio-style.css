@@ -1,8 +1,8 @@
 
 :root {
-  --white-color:                  #ffffff;
-  --primary-color:                #1995AD;
-  --secondary-color:              #A1D6E2;
+  --white-color:                  #FAF3E3;
+  --primary-color:                #ff050d;
+  --secondary-color:              #2BAE66FF;
   --section-bg-color:             #f9f9f9;
   --dark-color:                   #000000;
   --p-color:                      #717275;
@@ -246,7 +246,7 @@ strong {
 .custom-btn:hover {
   background: var(--primary-color);
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-  color: var(--dark-color);
+  color: var(--white-color);
 }
 
 .custom-border-btn {
@@ -825,7 +825,7 @@ strong {
   .about-numbers {
     font-size: 42px;
   }
-  
+
   .contact-info {
     border-radius: 0 0 var(--border-radius-small) var(--border-radius-small);
     padding: 40px 30px;
